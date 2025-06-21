@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <AWSProjectType>Lambda</AWSProjectType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>intheclouds.blog</Company>
+    <Description>AWS Lambda function to perform health checks</Description>
+    <VersionPrefix>0.1.5</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <PackageReference Include="Amazon.Lambda.Core" Version="2.2.0" />
+  <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="2.1.1" />
+  <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.400" />
+  <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.300" />
+  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+</ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
