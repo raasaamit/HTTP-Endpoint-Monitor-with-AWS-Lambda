@@ -46,7 +46,7 @@ Installation Steps
 
 Get the Code: Clone your repository to your computer:
 
-git clone https://github.com/your-username/http-endpoint-monitor.git
+git clone https://github.com/raasaamit/http-endpoint-monitor.git
 cd http-endpoint-monitor
 
 
